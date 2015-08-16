@@ -218,7 +218,7 @@ function FOO_admin_settings() {
     );
   }
 
-   // Add a submit button
+  // Add a submit button.
   $form['actions']['#type'] = 'actions';
   $form['actions']['submit'] = array(
     '#type' => 'submit',
