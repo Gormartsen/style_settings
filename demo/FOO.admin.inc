@@ -154,7 +154,7 @@ function FOO_admin_settings() {
       '#type' => 'style_settings_number',
       '#default_value' => config_get('style_settings_demo.settings', 'FOO_fontsize_value'),
       // Uncomment the line below to NOT show min, max and step values as help.
-//      '#input_help' => NULL,
+    //      '#input_help' => NULL,
     );
     // A measurement unit select field.
     $form['css_variables']['FOO_fontsize']['FOO_fontsize_unit'] = array(
